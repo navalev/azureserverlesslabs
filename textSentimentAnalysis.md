@@ -30,7 +30,7 @@ Now we will create a Logic Apps that triggers on twitter feed, and posts them to
 ![Alt text](./media/choose-logic-app-template.jpg?raw=true)
 
 4. Allow the Logic App to read your twitter feed
-[!Alt text](./media/twitter_signin.jpg?raw=true)
+![Alt text](./media/twitter_signin.jpg?raw=true)
 
 5. Set up the trigger to listen for tweets based on a keyword or hashtag. On polling-based triggers, such as the Twitter trigger, the recurrence property determines how often the logic app checks for new items.
 ![Alt text](./media/twitter.jpg?raw=true)
