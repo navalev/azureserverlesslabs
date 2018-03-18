@@ -3,7 +3,7 @@
 In this lab we will create a logic app that triggers on finding feedback from twitter, analyze the tweets sentiments using Azure Cognetive Services and send the results to a slack channel.
 
 ## What will you need?
-1. Active Azure account portal.azure.com
+1. Active Azure account [portal.azure.com](https://portal.azure.com)
 2. Active twitter account
 3. Active slack channel
 
