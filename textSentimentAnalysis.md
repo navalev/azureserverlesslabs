@@ -38,14 +38,14 @@ Now we will create a Logic Apps that triggers on twitter feed, and posts them to
 6. Now we will start analyzing the tweet text. In Logic App Designer, under the trigger, choose **New step**. Find the **Text Analytics** connector and select the **Detect Sentiment** action.
 ![Alt text](./media/create-text-sentiment-step.JPG?raw=true)
 
-7. Enter the name, key and endpoint you noted in part 1
-![Alt text](./media/cognitiveservice-key-setting.JPG?raw=true)
+7. Enter the name, key and endpoint you noted in part1
+![Alt text](./media/cognitiveservice-key-setting.jpg?raw=true)
 
 8. Under **Request Body**, select the **Tweet Text** field, which provides the tweet text as input for analysis.
 ![Alt text](./media/detect-sentiment.JPG?raw=true)
 
-9. After you get the tweet data and insights about the tweet, we will post all into a slack channel. Click on **Next Step** and search for **Slack** and select **Post Messages**. 
-You will need to signin to your slack account and allow the logic app to post in your behalf.
+9. After you get the tweet data and insights about the tweet, we will post all into a slack channel. Click on **Next Step** and search for **Slack** and select **Post Messages**. You will need to signin to your slack account and allow the logic app to post in your behalf.
+
 ![Alt text](./media/slack-signin.JPG?raw=true)
 
 10. Select the slack channel yo post to, and the message text. In this example we will post the tweet sentiment analysis score, the twitter handle and the tweet text.
